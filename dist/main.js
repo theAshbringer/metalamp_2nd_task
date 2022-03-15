@@ -1,0 +1,1 @@
+console.log({name:"Vitalij",age:"37",language:"JavaScript",framework:"Angular"});
