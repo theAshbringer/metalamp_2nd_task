@@ -1,11 +1,13 @@
-include pug/libs/_libs
+include ./components/input/input.pug
 
 doctype html
-include pug/_head
-h1 Заголовок
-.container__subtitle
-  | Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, ducimus! Nisi
-  | quidem totam modi eos id laudantium enim quas libero, accusamus, adipisci fuga cumque obcaecati ratione voluptate et
+html(lang="en")
+  head
+    title = 'Form Elements'
+  body 
+    header 
+    +textField('testName', 'Тест 1')
+    footer 
 
 
 
